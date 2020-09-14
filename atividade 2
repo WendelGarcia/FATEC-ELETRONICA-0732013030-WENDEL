@@ -1,0 +1,19 @@
+/*Mostrar numero menor que 10*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//declaracao de vaviaveis
+int e_numero;
+
+//intup numero
+printf("Digite um numero:");
+scanf("%d", &e_numero);
+
+if(e_numero<10){
+printf("%d menor que 10\n", e_numero);
+}
+return 0;
+}
