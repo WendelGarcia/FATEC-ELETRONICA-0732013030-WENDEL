@@ -11,8 +11,8 @@ float e_resistencia_R1, e_resistencia_R2, s_resistencia_equivalente;
 printf("Entre com o valor de R1:\n");
 scanf("%f", &e_resistencia_R1);
 
-printf ("Entre com o valor de R2:\n");
-scanf ("% f", & e_resistencia_R2);
+printf ("Entre com o valor de R2:\n")
+scanf ("%f",&e_resistencia_R2);
 
 s_resistencia_equivalente=(e_resistencia_R1*e_resistencia_R2)/(e_resistencia_R1+e_resistencia_R2);
 
