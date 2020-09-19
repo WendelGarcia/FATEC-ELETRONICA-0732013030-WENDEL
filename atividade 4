@@ -1,0 +1,23 @@
+/*resolução da equação de 1o. Grau: ax+b=0*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int mai()
+{
+float e_termo_ax, e_termo_b, s_resp_x;
+printf("Digite o valor do termo a em x: ")
+scanf("%f", &e_termo_ax);
+
+if(e_termo_ax !=0){
+printf("Digite o valor do term b:")
+scanf("%f", &e_termo_b);
+
+s_resp_x=-e_termo_b/e_termo_ax;
+printf("Resposta: %f\n", s_resp_x);
+}
+else{
+printf("O termo ax  não pode ser zero.\n");
+}
+return 0;
+}
